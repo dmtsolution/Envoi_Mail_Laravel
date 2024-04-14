@@ -25,7 +25,7 @@ class IndexController extends Controller
             'message.required' => 'Veuillez saisir votre message.'
         ]);
 
-        $destinataires = ['dmtwoleu@gmail.com', 'iwejruth@gmail.com'];
+        $destinataires = ['dmtwoleu@gmail.com', 'iwejruth@gmail.com', 'Rabbysydney516@gmail.com'];
     
         $details = [
             'email' => $request->email,
