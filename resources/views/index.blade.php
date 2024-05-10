@@ -23,7 +23,7 @@
 
             <div class="mb-3 w-75">
                 <label for="exampleFormControlInput1" class="form-label">Adresse e-mail</label>
-                <input  name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" value="{{ old('email') }}">
+                <input  name="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="exemple@example.com" value="{{ old('email') }}">
                 @error('email')
                     <div class="alert alert-danger mt-2">{{ $message }}</div>
                 @enderror
